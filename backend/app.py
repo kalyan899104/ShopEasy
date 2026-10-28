@@ -14,7 +14,7 @@ conn = psycopg2.connect(
 
 @app.route("/")
 def home():
-    return "Welcome to ShopEasy API"
+    return "Welcome to ShopEasy API version 2"
 
 
 @app.route("/health")
